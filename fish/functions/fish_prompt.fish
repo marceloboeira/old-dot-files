@@ -14,7 +14,7 @@ function fish_prompt
   set -l green (set_color green)
   set -l normal (set_color normal)
   set -l user_and_host $blue(whoami)@(hostname|cut -d . -f 1)
-  set -l short_path $green(prompt_pwd)
+  set -l short_path $normal(prompt_pwd)
   
   # Show git branch and status
   if [ (_git_branch_name) ]
