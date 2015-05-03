@@ -22,6 +22,7 @@ m = merge
 mg = merge
 tg = tag 
 pl = pull
+plr = pull --rebase
 plom = pull origin master
 ps = push
 psom = push origin master
