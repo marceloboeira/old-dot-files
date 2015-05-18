@@ -1,0 +1,32 @@
+[filter "media"]
+  required = true
+  clean = git media clean %f
+  smudge = git media smudge %f
+[user]
+  name = Marcelo Boeira
+  email = me@marceloboeira.com
+[alias]
+co = checkout
+a = add
+A = add -A 
+st = status
+s = status
+rs = reset
+rb = rebase
+rbi = rebase -i
+cm = commit -m 
+cma = commit -am 
+b = branch
+br = branch
+m = merge
+mg = merge
+tg = tag 
+pl = pull
+plom = pull origin master
+ps = push
+psom = push origin master
+lg = log -p
+[core]
+  editor = subl -n -w
+[gc]
+  auto = 1
