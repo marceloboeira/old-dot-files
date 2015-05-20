@@ -1,5 +1,6 @@
 General:
   ✓ setup functions
   ✓ setup local configs for bash
+  ✓ setup sublime preferences
   - setup a README file
-  - setup a Rake task to install
+  - setup an automated 'install' script
