@@ -16,6 +16,7 @@ rb = rebase
 rbi = rebase -i
 cm = commit -m 
 cma = commit -am 
+cmam = commit --amend
 b = branch
 br = branch
 m = merge
@@ -27,6 +28,7 @@ plom = pull origin master
 ps = push
 psom = push origin master
 lg = log -p
+cherry-pick crp
 [core]
   editor = subl -n -w
 [gc]
