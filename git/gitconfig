@@ -24,6 +24,7 @@
   plom = pull origin master
   ps = push
   psom = push origin master
+  ranking = shortlog -s -n
   rs = reset
   rb = rebase
   rbi = rebase -i
@@ -34,6 +35,7 @@
   tg = tag 
   l = log
   lg = log --graph --pretty=format:'%C(yellow)%h%Cred%d %Cblue%aN %Cgreen%ar %Creset%s'
+  lgs = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
   last = log -1 HEAD
   cherry-pick = crp
 [core]
