@@ -29,7 +29,8 @@
   st = status
   s = status
   tg = tag 
-  lg = log -p
+  l = log
+  lg = log --graph --pretty=format:'%C(yellow)%h%Cred%d %Cblue%aN %Cgreen%ar %Creset%s'
   cherry-pick crp
 [core]
   editor = subl -n -w
