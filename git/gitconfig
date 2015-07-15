@@ -10,6 +10,7 @@
   A = add -A 
   b = branch
   br = branch
+  bl = blame
   co = checkout
   cm = commit -m 
   cma = commit -am 
@@ -28,6 +29,8 @@
   rbi = rebase -i
   st = status
   s = status
+  shame = "!s() { git blame $1 -p | grep 'author ' | cut -d' ' -f2-10 | sort | uniq -c | sort | tail -n1 | cut -c6-30 ; }; s"  
+  shout = "!s() { git shame $1 | say; }; s"
   tg = tag 
   l = log
   lg = log --graph --pretty=format:'%C(yellow)%h%Cred%d %Cblue%aN %Cgreen%ar %Creset%s'
