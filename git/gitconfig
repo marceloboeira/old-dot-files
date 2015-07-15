@@ -35,8 +35,7 @@
   l = log
   lg = log --graph --pretty=format:'%C(yellow)%h%Cred%d %Cblue%aN %Cgreen%ar %Creset%s'
   last = log -1 HEAD
-  cherry-pick crp
-
+  cherry-pick = crp
 [core]
   editor = subl -n -w
 [gc]
