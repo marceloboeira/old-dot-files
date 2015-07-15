@@ -6,29 +6,29 @@
   name = Marcelo Boeira
   email = me@marceloboeira.com
 [alias]
-co = checkout
-a = add
-A = add -A 
-st = status
-s = status
-rs = reset
-rb = rebase
-rbi = rebase -i
-cm = commit -m 
-cma = commit -am 
-cmam = commit --amend
-b = branch
-br = branch
-m = merge
-mg = merge
-tg = tag 
-pl = pull
-plr = pull --rebase
-plom = pull origin master
-ps = push
-psom = push origin master
-lg = log -p
-cherry-pick crp
+  a = add
+  A = add -A 
+  b = branch
+  br = branch
+  co = checkout
+  cm = commit -m 
+  cma = commit -am 
+  cmam = commit --amend
+  m = merge
+  mg = merge
+  pl = pull
+  plr = pull --rebase
+  plom = pull origin master
+  ps = push
+  psom = push origin master
+  rs = reset
+  rb = rebase
+  rbi = rebase -i
+  st = status
+  s = status
+  tg = tag 
+  lg = log -p
+  cherry-pick crp
 [core]
   editor = subl -n -w
 [gc]
