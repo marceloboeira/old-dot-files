@@ -14,6 +14,8 @@
   cm = commit -m 
   cma = commit -am 
   cmam = commit --amend
+  d = diff
+  dc = diff --cached
   m = merge
   mg = merge
   pl = pull
