@@ -1,3 +1,4 @@
 [
- { "keys": ["super+shift+r"], "command": "goto_definition" }
+ { "keys": ["super+shift+r"], "command": "goto_definition" },
+ { "keys": ["super+l"], "command": "prompt_goto_line" }
 ]
