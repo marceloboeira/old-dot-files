@@ -29,7 +29,7 @@ function fish_prompt
   # show ruby version
   set -l ruby_info
   if which rvm >/dev/null ^&1
-    set ruby_info $red '['(rvm current)']'
+    set ruby_info $red'['(rvm current)']'
   end
   set -l time_info $normal (date "+%H:%M")' |'
   
