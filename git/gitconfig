@@ -29,8 +29,12 @@
   rs = reset
   rb = rebase
   rbi = rebase -i
-  st = status
   s = status
+  st = stash
+  stl = stash list
+  sts = stash show
+  sta = stash apply
+  stp = stash pop
   shame = "!s() { git blame $1 -p | grep 'author ' | cut -d' ' -f2-10 | sort | uniq -c | sort | tail -n1 | cut -c6-30 ; }; s"  
   shout = "!s() { git shame $1 | say; }; s"
   tg = tag 
