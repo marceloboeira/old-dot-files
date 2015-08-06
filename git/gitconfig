@@ -17,6 +17,7 @@
   cmam = commit --amend
   d = diff
   dc = diff --cached
+  dt = difftool
   m = merge
   mg = merge
   pl = pull
@@ -42,3 +43,16 @@
   editor = subl -n -w
 [gc]
   auto = 1
+[merge]
+  tool = sublimerge
+[mergetool]
+  prompt = false
+[mergetool "sublimerge"]
+  cmd = subl -n --wait \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\" --command \"sublimerge_diff_views\"
+  trustExitCode = false
+[diff]
+  tool = sublimerge
+[difftool]
+  prompt = false
+[difftool "sublimerge"]
+  cmd = subl -n --wait \"$REMOTE\" \"$LOCAL\" --command \"sublimerge_diff_views {\\\"left_read_only\\\": true, \\\"right_read_only\\\": true}\"
