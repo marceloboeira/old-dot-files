@@ -1,7 +1,0 @@
-General:
-  ✓ setup functions
-  ✓ setup local configs for bash
-  ✓ setup sublime preferences
-  ✓ setup sublime icon
-  - setup a README file
-  - setup an automated 'install' script
