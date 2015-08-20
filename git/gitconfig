@@ -21,12 +21,13 @@
   dt = difftool
   m = merge
   mg = merge
-  pl = pull
-  plr = pull --rebase
+  pl = pull --tags
+  plr = pull --rebase --tags
   plom = pull origin master
   ps = push
   psom = push origin master
   ranking = shortlog -s -n
+  rk = shortlog -s -n
   rs = reset
   rb = rebase
   rbi = rebase -i
