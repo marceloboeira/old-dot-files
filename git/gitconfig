@@ -44,7 +44,7 @@
   lg = log --graph --pretty=format:'%C(yellow)%h%Cred%d %Cblue%aN %Cgreen%ar %Creset%s'
   lgs = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
   last = log -1 HEAD
-  cherry-pick = crp
+  crp = cherry-pick
 [core]
   editor = subl -n -w
 [gc]
