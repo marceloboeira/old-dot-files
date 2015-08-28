@@ -1,2 +1,3 @@
 " vim: ft=vim
+set guifont=Iosevka:h18
 colorscheme base16-flat
