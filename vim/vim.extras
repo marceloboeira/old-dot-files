@@ -1,0 +1,2 @@
+" vim: ft=vim
+autocmd GUIEnter * set guifont=Iosevka:h18
