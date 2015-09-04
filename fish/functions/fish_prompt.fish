@@ -15,7 +15,7 @@ function fish_prompt
   set -l normal (set_color normal)
   set -l user_and_host $blue(whoami)@(hostname|cut -d . -f 1)
   set -l short_path $green(prompt_pwd)
-  
+
   # Show git branch and status
   if [ (_git_branch_name) ]
       set -l git_branch (_git_branch_name)
@@ -32,6 +32,6 @@ function fish_prompt
     set ruby_info $red'['(rvm current)']'
   end
   set -l time_info $normal (date "+%H:%M")' |'
-  
+
   echo "$ruby_info $short_path$git_info$end_symbol"$normal" \$ "
 end

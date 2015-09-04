@@ -1,5 +1,5 @@
 source "~/.config/fish/functions/*"
-source "~/.rvm/scripts/rvm" 
+source "~/.rvm/scripts/rvm"
 
 set fish_greeting ""
 set fish_plugins brew rvm
